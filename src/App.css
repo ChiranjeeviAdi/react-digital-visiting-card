@@ -1,6 +1,15 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  background-color: #DDDDDD;
+  /* height: 100vh; */
+  color:white;
 }
+body{
+  /* margin: 0; */
+    /* padding: 0; */
+    /* border: 0; */
+}
+/* 
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +44,64 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.components{
+  width:30%;
+  /* border:1px solid #fff; */
+  text-align: center;
+  margin: auto;
+  height: 100vh;
+  background-color: #23252c;
+
+}
+.headerClass{
+  padding-top:20px;
+}
+
+.imgProfile{
+  border-radius: 4px;
+  width: 30%;
+}
+h5{
+margin: 0;
+}
+h4{
+  margin: 0;
+}
+.socialBtn{
+  margin-top: 10px;
+  /* display: inline-flex; */
+  /* flex-wrap: wrap; */
+}
+.socialBtnLeft{
+  font-size: 1.4rem;
+  border-radius: 5px;
+  border-color: black;
+}
+.socialBtnRight{
+  margin-left: 20px;
+  font-size: 1.4rem;
+  border-radius: 5px;
+}
+.about{
+  /* margin: auto; */
+    /* width: 28%; */
+    /* text-align: initial; */
+}
+
+.aboutHeading{
+  /* width: 50%; */
+  width: 60%;
+  margin: auto;
+  text-align: left;
+    margin-top: 20px !important;
+
+}
+.interestHeading{
+  margin-top: 20px;
+  width: 60%;
+  margin: auto;
+  text-align: left;
+  margin-top: 20px !important;
 }
